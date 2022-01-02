@@ -27,3 +27,6 @@ Data set has 20 predictor variables (features) and around 41K rows.
 20. nr.employed: number of employees - quarterly indicator (numeric)
 21. y - has the client subscribed a term deposit? (binary: 'yes','no')
  
+
+# Conclusion
+For the given data, visualization of data, ways to treat imbalance in the data and best predictive model to determine the term deposit subscription was explored. From visualization, it can be derived that repeated campaign calls to customers within 20 days of previous call increases the subscription. After treating the imbalance in data, Decision Tree Model performed the best in terms of accuracy score of 91.42%.

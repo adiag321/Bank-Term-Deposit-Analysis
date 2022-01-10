@@ -26,7 +26,45 @@ Data set has 20 predictor variables (features) and around 41K rows.
 19. euribor3m: euribor 3 month rate - daily indicator (numeric)
 20. nr.employed: number of employees - quarterly indicator (numeric)
 21. y - has the client subscribed a term deposit? (binary: 'yes','no')
- 
+
+# Project Overview
+In this analysis we perform:
+
+1. Exploratory Data Analysis
+2. Univariate Analysis
+3. BiVariate Analysis
+4. Model Fitting and Treating Imbalanced Data <br>
+
+To treat the imbalance data so that there is no bias in modeling, we have used - 
+
+1. RANDOM UNDRSAMPLING
+2. RANDOM OVERSAMPLING
+3. SYNTHETIC MINORITY OVERSAMPLING TECHNIQUE (SMOTE)
+
+We have implemented the following Machine Learning Models - 
+
+1. Logistic Regression Model
+2. Decison Tree
+3. Random Forest
+4. Support Vector Machine
+
+
+# Evaluation Metrics
+
+For evaluating the models we have used Precision, Recall and Accuracy. <br>
+
+| Model      | Data Type | Precision | Recall | Accuracy
+| ----------- | ----------- | ----------- |
+| Logistic Regression Model | Imbalanced Data | 0.68 | 0.42 | 90.88% |
+| Logistic Regression Model | Undersampled Data | 0.45 | 0.88 | 86.13% |
+| Logistic Regression Model | Oversampled Data | 0.42 | 0.87 | 85.63% |
+| Decison Tree | Imbalanced Data |  0.62    | 0.55 | 91.42% |
+| Decison Tree | SMOTE Data |  0.46    | 0.82 | 87.04% |
+| Random Forest | Imbalanced Data | 0.26 |  0.75 | 73.88% |
+| Random Forest | SMOTE Data | 0.31 |  0.69 | 79.67% |
+| Support Vector Machine | SMOTE Data | 0.96 | 0.86 | 91.16% |
+
+
 
 # Conclusion
 For the given data, visualization of data, ways to treat imbalance in the data and best predictive model to determine the term deposit subscription was explored. From visualization, it can be derived that repeated campaign calls to customers within 20 days of previous call increases the subscription. After treating the imbalance in data, Decision Tree Model performed the best in terms of accuracy score of 91.42%.

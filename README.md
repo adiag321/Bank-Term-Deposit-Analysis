@@ -54,7 +54,7 @@ We have implemented the following Machine Learning Models -
 For evaluating the models we have used Precision, Recall and Accuracy. <br>
 
 | Model      | Data Type | Precision | Recall | Accuracy |
-| ----------- | ----------- | ----------- | ----------- |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 | Logistic Regression Model | Imbalanced Data | 0.68 | 0.42 | 90.88% |
 | Logistic Regression Model | Undersampled Data | 0.45 | 0.88 | 86.13% |
 | Logistic Regression Model | Oversampled Data | 0.42 | 0.87 | 85.63% |

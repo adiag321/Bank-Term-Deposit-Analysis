@@ -1,4 +1,4 @@
-<h1 align="center">Bank Term Deposit Analysis</h1>
+# <p align="center">Bank Term Deposit Analysis</p>
 
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) was subscribed or not. 
 
@@ -65,7 +65,6 @@ For evaluating the models we have used Precision, Recall and Accuracy. <br>
 | Random Forest | Imbalanced Data | 0.26 |  0.75 | 73.88% |
 | Random Forest | SMOTE Data | 0.31 |  0.69 | 79.67% |
 | Support Vector Machine | SMOTE Data | 0.96 | 0.86 | 91.16% |
-
 
 
 # Conclusion

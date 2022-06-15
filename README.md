@@ -4,7 +4,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 
 Data set has 20 predictor variables (features) and around 41K rows. <br>
 
-Dataset link: <a href = "https://archive.ics.uci.edu/ml/datasets/bank+marketing">LINK<a>
+The dataset is collected from UCI Repository - "https://archive.ics.uci.edu/ml/datasets/bank+marketing"
 
 # Data Defination
 1. age (numeric)
